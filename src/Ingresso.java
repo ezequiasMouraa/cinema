@@ -2,9 +2,9 @@ public class Ingresso {
 
     private Filme filme;
     private String tipoIngresso;
-    private int horarioSessao;
+    private String horarioSessao;
 
-    public Ingresso(Filme filme, String tipoIngresso, int horarioSessao) {
+    public Ingresso(Filme filme, String tipoIngresso, String horarioSessao) {
         this.filme = filme;
         this.tipoIngresso = tipoIngresso;
         this.horarioSessao = horarioSessao;
@@ -26,11 +26,11 @@ public class Ingresso {
         this.tipoIngresso = tipoIngresso;
     }
 
-    public int getHorarioSessao() {
+    public String getHorarioSessao() {
         return horarioSessao;
     }
 
-    public void setHorarioSessao(int horarioSessao) {
+    public void setHorarioSessao(String horarioSessao) {
         this.horarioSessao = horarioSessao;
     }
 
